@@ -13,6 +13,8 @@ la nota se pedirá de nuevo hasta que la nota sea correcta
         Scanner leer=new Scanner(System.in);
         int nota;
         System.out.println("Bienvenido, ingresa tu nota: ");
+        System.out.println("--------------------------------");
+        System.out.println("La nota debe ser entre 0 y 10");
        
        do{
            
@@ -20,7 +22,7 @@ la nota se pedirá de nuevo hasta que la nota sea correcta
            
        }while(nota>1 && nota>10 );
        
-      
+        System.out.println("Tu nota fue guardada correctamente");
        
        }
     }
