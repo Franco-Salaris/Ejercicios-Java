@@ -13,19 +13,18 @@ el límite inicial.
     public static void main(String[] args) {
         
         Scanner leer= new Scanner(System.in); 
-        System.out.println("ingrese un valor inicial");
+        System.out.println("ingrese un valor inicial: ");
         int num= leer.nextInt();
         int num2= 0;
         System.out.println("Ahora ingrese numeros aleatorios");
         System.out.println("-----------------------------------");
         System.out.println("El programa sumara a esos numeros aleatorios, hasta que superen el limite inciial");
         
-        do{
-            System.out.println("Ingrese el siguiente valor");
-             num2=leer.nextInt();
-            num2= num2 +num2;
-        }while(num2<num);
-        System.out.println("La suma de los numeros es: "+num2);
+        
+     
+        
+        
+       
     }
     
 }
